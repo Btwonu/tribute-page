@@ -2,7 +2,6 @@
 
 ## Made for an FCC project
 
----
 
 ### Technologies used:
 
