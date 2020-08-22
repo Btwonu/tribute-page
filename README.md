@@ -1,7 +1,11 @@
-#Eminem tribute page
-##Made for an FCC project
+# Eminem tribute page
+
+## Made for an FCC project
+
 ---
-###Technologies used:
-* **HTML**
-* **CSS/SASS**
-* **JavaScript**
+
+### Technologies used:
+
+- **HTML**
+- **CSS/SASS**
+- **JavaScript**
