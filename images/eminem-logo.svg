@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="eminem-logo.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 89.138782 17.149487"
+   height="64.816963"
+   width="336.9025">
+  <defs
+     id="defs2">
+    <rect
+       id="rect835"
+       height="297.08929"
+       width="213.17857"
+       y="0.75595236"
+       x="-1.5119048" />
+    <rect
+       x="-1.5119048"
+       y="0.75595236"
+       width="213.17857"
+       height="297.08929"
+       id="rect835-7" />
+    <rect
+       x="-1.5119048"
+       y="0.75595236"
+       width="213.17857"
+       height="297.08929"
+       id="rect848" />
+    <filter
+       height="1.0001312"
+       y="-6.5663669e-05"
+       width="1.0000215"
+       x="-1.0677427e-05"
+       id="filter895"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur897"
+         stdDeviation="0.00015640728"
+         inkscape:collect="always" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter950"
+       x="0.0020596981"
+       width="0.99800706"
+       y="0.4493506"
+       height="0.55105972">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.00097754564"
+         id="feGaussianBlur948" />
+    </filter>
+    <rect
+       x="-1.5119048"
+       y="0.75595236"
+       width="213.17857"
+       height="297.08929"
+       id="rect835-0" />
+    <rect
+       x="-1.5119048"
+       y="0.75595236"
+       width="213.17857"
+       height="297.08929"
+       id="rect1017" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="1912"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     units="px"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     inkscape:snap-nodes="true"
+     inkscape:object-paths="false"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="446.21876"
+     inkscape:cx="660.4735"
+     inkscape:zoom="0.7"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-1.0747173,-1.0077857)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       transform="translate(-56.696429,-48.758929)"
+       id="g1073">
+      <text
+         xml:space="preserve"
+         id="text833"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.86282px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';white-space:pre;shape-inside:url(#rect835);fill:#232c36;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;"
+         transform="matrix(2.527983,0,0,2.866647,59.748681,43.423745)"><tspan
+           x="-1.5117188"
+           y="7.9293486"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.86282px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#232c36;fill-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none">EMINEM</tspan></tspan></text>
+      <g
+         aria-label="EMINEM"
+         transform="matrix(2.527983,0,0,2.8666469,59.69946,43.64967)"
+         id="text833-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.86282px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';white-space:pre;shape-inside:url(#rect835-7);opacity:0.984;mix-blend-mode:normal;fill:#ccd7e3;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter950)">
+        <path
+           d="M 3.3526334,7.9293486 H -0.7822579 V 2.212679 H 3.3526334 V 3.3183881 H 0.68434235 V 4.3050799 H 3.16067 V 5.410789 H 0.68434235 V 6.8236395 H 3.3526334 Z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.86282px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ccd7e3;fill-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+           id="path980" />
+        <path
+           d="M 10.585814,7.9293486 H 9.1192134 V 4.1015987 L 8.0595755,6.5856049 H 7.0421696 L 5.9825317,4.1015987 V 7.9293486 H 4.5927168 V 2.212679 H 6.3050302 L 7.5911849,5.080612 8.8735003,2.212679 h 1.7123137 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.86282px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ccd7e3;fill-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+           id="path982" />
+        <path
+           d="M 15.131507,7.9293486 H 11.783666 V 6.9157819 h 0.936781 V 3.2262457 H 11.783666 V 2.212679 h 3.347841 v 1.0135667 h -0.936781 v 3.6895362 h 0.936781 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.86282px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ccd7e3;fill-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+           id="path984" />
+        <path
+           d="M 21.539245,7.9293486 H 20.118716 L 17.692299,4.005617 V 7.9293486 H 16.340877 V 2.212679 h 1.762224 l 2.084722,3.2748953 V 2.212679 h 1.351422 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.86282px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ccd7e3;fill-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+           id="path986" />
+        <path
+           d="M 27.140735,7.9293486 H 23.005843 V 2.212679 h 4.134892 v 1.1057091 h -2.668291 v 0.9866918 h 2.476327 V 5.410789 h -2.476327 v 1.4128505 h 2.668291 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.86282px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ccd7e3;fill-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+           id="path988" />
+        <path
+           d="m 34.373915,7.9293486 h -1.4666 V 4.1015987 L 31.847677,6.5856049 H 30.830271 L 29.770633,4.1015987 V 7.9293486 H 28.380819 V 2.212679 h 1.712313 l 1.286155,2.867933 1.282315,-2.867933 h 1.712313 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.86282px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ccd7e3;fill-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+           id="path990" />
+      </g>
+    </g>
+  </g>
+</svg>
