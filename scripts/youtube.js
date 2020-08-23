@@ -4,6 +4,7 @@
 const YOUTUBE_API = 'AIzaSyCp5P5MnjVY55AoQt57PgVb8bkIgHxVLIk';
 const baseURL = 'https://www.googleapis.com/youtube/v3/search?';
 
+//URL configuration
 let part = 'snippet';
 let maxResults = 5;
 let keyword = 'eminem';
@@ -13,6 +14,7 @@ let dynamicURL =
   baseURL +
   `part=${part}&maxResults=${maxResults}&q=${keyword}&type=${type}&chart=${chart}&key=${YOUTUBE_API}`;
 
+//Get data
 fetch(dynamicURL).then((res) => {
   if (res.status !== 200) {
     console.log('Problem', res.status);
@@ -24,10 +26,10 @@ fetch(dynamicURL).then((res) => {
   });
 });
 
+//Declarations
 function getVideos(videoArr) {
   videoArr.forEach((element) => {
-    let videoURL = `https://www.youtube.com/watch?v=${element.id.videoId}`;
-
+    let videoURL = `https://www.youtube.com/embed/${element.id.videoId}`;
     renderVideos(videoURL);
   });
 }
@@ -45,20 +47,3 @@ function renderVideos(URL) {
   //Add new album to the end of the section
   songsSection.appendChild(div);
 }
-
-//DELETE
-// <div class="song-1">
-//           <iframe src="https://www.youtube.com/embed/hCdgDxQbW_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-//         </div>
-//         <div class="song-2">
-//           <iframe src="https://www.youtube.com/embed/MxWP8-50Le8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-//         </div>
-//         <div class="song-3">
-//           <iframe src="https://www.youtube.com/embed/MxWP8-50Le8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-//         </div>
-//         <div class="song-4">
-//           <iframe src="https://www.youtube.com/embed/MxWP8-50Le8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-//         </div>
-//         <div class="song-5">
-//           <iframe src="https://www.youtube.com/embed/MxWP8-50Le8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-//         </div>
