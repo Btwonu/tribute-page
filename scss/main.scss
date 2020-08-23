@@ -1,10 +1,11 @@
 //FONTS IMPORT
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&family=Lato&family=Raleway&display=swap');
 
 //VARIABLES
 //Fonts
 $font-main: 'Lato', sans-serif;
 $font-secondary: 'Red Hat Text', sans-serif;
+$font-hero-title: 'Raleway', sans-serif;
 
 //Colors
 $color-main: #232c36;
@@ -13,7 +14,9 @@ $color-tertiary: #4b74a3;
 $color-complementary: #6e8ffc;
 $color-accent: #e0ab42;
 $color-accent-light: #f5be51;
-$box-shadow: 1px 1px 5px 1px #344352a8;
+$box-shadow: 1px 1px 5px 1px #2a3642be;
+$font-size-title: 1.6rem;
+$font-size-normal: 1.4rem;
 
 //BASE
 * {
@@ -30,9 +33,8 @@ body {
   width: 100%;
   /* max-width: 1200px; */
   margin: 0 auto;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-main;
   background-color: $color-main;
-  height: 800vh; //Delete
   color: $color-secondary;
 }
 
@@ -57,6 +59,7 @@ nav {
   display: flex;
   justify-content: space-between;
   color: $color-main;
+  box-shadow: $box-shadow;
 
   .em-logo {
     width: 160px;
@@ -72,7 +75,7 @@ nav {
     display: flex;
     align-items: center;
     font-family: 'Red Hat Text', sans-serif;
-    font-size: 1.4rem;
+    font-size: $font-size-normal;
 
     ul {
       list-style-type: none;
@@ -92,8 +95,8 @@ nav {
   .hero-title {
     color: #e6dfcc;
     width: 36%;
-    font-size: 1.6rem;
-    text-align: center;
+    font-family: $font-hero-title;
+    font-size: $font-size-normal;
     padding: 30rem 0 0 10rem;
 
     h2 {
@@ -147,10 +150,44 @@ nav {
 
 //DISCOGRAPHY
 .discography {
-  font-size: 1.6rem;
+  font-size: $font-size-normal;
 
   .album {
     padding: 2rem;
+  }
+}
+
+//FOOTER
+footer {
+  background-color: $color-secondary;
+  font-size: $font-size-normal;
+  box-shadow: $box-shadow;
+
+  .footer-columns {
+    color: $color-main;
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3rem;
+    text-align: left;
+
+    ul {
+      list-style-type: none;
+      display: inline-block;
+
+      //Footer titles
+      li:first-child {
+        font-size: 1.6rem;
+        font-weight: bold;
+        padding-bottom: 0.6rem;
+        border-bottom: 1px solid #232c3675;
+        margin-bottom: 1rem;
+      }
+      //Footer links
+      li {
+        padding: 0.4rem;
+      }
+    }
   }
 }
 
@@ -163,7 +200,7 @@ nav {
 }
 
 .section-title {
-  font-size: 2.4rem;
+  font-size: $font-size-title;
   text-transform: uppercase;
 }
 
@@ -173,9 +210,13 @@ nav {
 
 .text-title {
   padding: 2rem;
-  font-size: 2rem;
+  font-size: $font-size-title;
   max-width: 56rem;
   line-height: 2.5rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 // Buttons

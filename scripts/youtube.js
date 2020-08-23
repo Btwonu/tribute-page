@@ -13,6 +13,7 @@ let chart = 'mostPopular';
 let dynamicURL =
   baseURL +
   `part=${part}&maxResults=${maxResults}&q=${keyword}&type=${type}&chart=${chart}&key=${YOUTUBE_API}`;
+console.log(dynamicURL); //Delete
 
 //Get data
 fetch(dynamicURL).then((res) => {
