@@ -137,6 +137,14 @@ nav {
   }
 }
 
+.front-figure {
+  padding: 1rem;
+
+  #image {
+    width: 2rem;
+  }
+}
+
 //INFO SECTION
 .info {
   background-color: $color-secondary;
