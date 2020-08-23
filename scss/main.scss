@@ -1,10 +1,10 @@
 //FONTS IMPORT
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&family=Lato&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway&family=Open+Sans&display=swap');
 
 //VARIABLES
 //Fonts
 $font-main: 'Lato', sans-serif;
-$font-secondary: 'Red Hat Text', sans-serif;
+$font-secondary: 'Open Sans', sans-serif;
 $font-hero-title: 'Raleway', sans-serif;
 
 //Colors
@@ -15,7 +15,7 @@ $color-complementary: #6e8ffc;
 $color-accent: #e0ab42;
 $color-accent-light: #f5be51;
 $box-shadow: 1px 1px 5px 1px #2a3642be;
-$font-size-title: 1.6rem;
+$font-size-title: 1.8rem;
 $font-size-normal: 1.4rem;
 
 //BASE
@@ -53,6 +53,9 @@ img {
 
 //NAVBAR
 nav {
+  font-family: $font-secondary;
+  position: fixed;
+  width: 100%;
   background-color: $color-secondary;
   height: 55px;
   padding: 1rem 5rem 1rem 5rem;
@@ -74,7 +77,6 @@ nav {
   .menu-items {
     display: flex;
     align-items: center;
-    font-family: 'Red Hat Text', sans-serif;
     font-size: $font-size-normal;
 
     ul {
@@ -82,7 +84,20 @@ nav {
       display: flex;
       justify-content: space-around;
       width: 30rem;
+
+      //Menu items hover
+      li {
+        &:hover {
+          color: #2a3642be;
+        }
+      }
     }
+  }
+
+  .hamburger-menu {
+    background: url('/images/icons/hamburger-menu.svg') center/contain no-repeat;
+    width: 3.4rem;
+    display: none;
   }
 }
 
@@ -106,6 +121,18 @@ nav {
       padding: 3rem;
     }
   }
+
+  //Scroll icon
+  //May be tweaked or deleted
+  .icon-scroll {
+    background: url('/images/icons/icon-scroll-inverseb.svg') center/contain
+      no-repeat;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    width: 3rem;
+    height: 3rem;
+  }
 }
 
 //INFO SECTION
@@ -117,11 +144,6 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-//IMG-DIV
-#img-div {
-  margin: 5rem auto;
 }
 
 //SONGS GRID
@@ -159,6 +181,7 @@ nav {
 
 //FOOTER
 footer {
+  font-family: $font-secondary;
   background-color: $color-secondary;
   font-size: $font-size-normal;
   box-shadow: $box-shadow;
@@ -189,13 +212,21 @@ footer {
       }
     }
   }
+
+  .footer-bottom {
+    font-family: $font-main;
+    color: $color-main;
+    background-color: #bac6d1;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
 }
 
 //UTILITY CLASSES
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 3rem;
   text-align: center;
 }
 
@@ -242,18 +273,43 @@ footer {
 }
 
 /* MEDIA QUERIES */
+//Title
 @media screen and (max-width: 1200px) {
   .hero-title {
     display: none;
   }
 }
 
+//Navbar
 @media screen and (max-width: 640px) {
   .em-logo {
     display: none;
   }
+
+  nav .menu-items {
+    display: none;
+  }
+
+  nav {
+    //Move burger to the right side
+    justify-content: flex-end;
+
+    //Show hamburger
+    .hamburger-menu {
+      display: block;
+      cursor: pointer;
+    }
+  }
 }
 
+//Footer
+@media screen and (max-width: 530px) {
+  footer .footer-columns {
+    grid-template-columns: auto;
+  }
+}
+
+//Videos
 @media screen and (max-width: 419px) {
   .songs {
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
