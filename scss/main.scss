@@ -14,7 +14,8 @@ $color-tertiary: #4b74a3;
 $color-complementary: #6e8ffc;
 $color-accent: #e0ab42;
 $color-accent-light: #f5be51;
-$box-shadow: 1px 1px 5px 1px #2a3642be;
+$box-shadow: 1px 1px 5px 1px #1f262cb9;
+// $box-shadow: 1px 1px 5px 1px #2a3642be;
 $font-size-title: 1.8rem;
 $font-size-normal: 1.4rem;
 
@@ -88,7 +89,7 @@ nav {
       //Menu items hover
       li {
         &:hover {
-          color: #2a3642be;
+          color: #1f262cb9;
         }
       }
     }
