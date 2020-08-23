@@ -96,7 +96,8 @@ nav {
   }
 
   .hamburger-menu {
-    background: url('/images/icons/hamburger-menu.svg') center/contain no-repeat;
+    background: url('../images/icons/hamburger-menu.svg') center/contain
+      no-repeat;
     width: 3.4rem;
     display: none;
   }
@@ -126,7 +127,7 @@ nav {
   //Scroll icon
   //May be tweaked or deleted
   .icon-scroll {
-    background: url('/images/icons/icon-scroll-inverseb.svg') center/contain
+    background: url('../images/icons/icon-scroll-inverseb.svg') center/contain
       no-repeat;
     position: absolute;
     bottom: 1rem;
