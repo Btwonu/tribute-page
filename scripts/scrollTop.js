@@ -6,7 +6,7 @@ const mouseScrollIcon = document.querySelector('.icon-scroll');
 function scrolled() {
   let yScroll = window.scrollY;
   //Scroll icon
-  if (yScroll > 250) {
+  if (yScroll > 150) {
     //add show class to mouseScrollIcon
     mouseScrollIcon.classList.remove('show');
   } else {

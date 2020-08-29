@@ -2,7 +2,9 @@
 //https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q=eminem&type=video&chart=mostPopular&key=AIzaSyCp5P5MnjVY55AoQt57PgVb8bkIgHxVLIk
 
 const YOUTUBE_API = 'AIzaSyCp5P5MnjVY55AoQt57PgVb8bkIgHxVLIk';
-const baseURL = 'https://www.googleapis.com/youtube/v3/search?';
+const baseURL = 'https://www.googleapis.com/youtube/v3/search?MISTAKE';
+const defaultVideos =
+  'https://btwonu.github.io/tribute-page/scripts/data/defaultVideos.json';
 
 //URL configuration
 let part = 'snippet';
@@ -13,29 +15,46 @@ let chart = 'mostPopular';
 let dynamicURL =
   baseURL +
   `part=${part}&maxResults=${maxResults}&q=${keyword}&type=${type}&chart=${chart}&key=${YOUTUBE_API}`;
-console.log(dynamicURL); //Delete
 
 //Get data
 fetch(dynamicURL).then((res) => {
   if (res.status !== 200) {
     console.log('Problem', res.status);
+
+    //Fetch default videos json
+    fetch(defaultVideos).then((res) => {
+      res.json().then((defaultVideosObj) => {
+        let keys = Object.keys(defaultVideosObj);
+
+        keys.forEach((key) => {
+          let songName = key;
+          let songURL = defaultVideosObj[key];
+
+          renderVideo(songURL);
+        });
+      });
+    });
     return;
   }
 
   res.json().then((data) => {
-    getVideos(data.items);
+    //Experimental
+    data.items.forEach((element) => {
+      let videoURL = `https://www.youtube.com/embed/${element.id.videoId}`;
+      renderVideo(videoURL);
+    });
   });
 });
 
 //Declarations
-function getVideos(videoArr) {
-  videoArr.forEach((element) => {
-    let videoURL = `https://www.youtube.com/embed/${element.id.videoId}`;
-    renderVideos(videoURL);
-  });
-}
+// function getVideos(videoArr) {
+//   videoArr.forEach((element) => {
+//     let videoURL = `https://www.youtube.com/embed/${element.id.videoId}`;
+//     renderVideo(videoURL);
+//   });
+// }
 
-function renderVideos(URL) {
+function renderVideo(URL) {
   //Get songs section
   const songsSection = document.querySelector('.songs');
   //Create div
