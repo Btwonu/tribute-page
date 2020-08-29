@@ -4,6 +4,7 @@ function init() {
   const hamburgerBtn = document.getElementById('hamburger-menu');
   const sidebar = document.getElementById('sidebar');
   const hamburgerItems = document.querySelectorAll('.hamburger-item');
+  const scrollIcon = document.querySelector('.icon-scroll');
 
   //On hamburger click
   hamburgerBtn.addEventListener('click', toggleMenu);
@@ -24,10 +25,13 @@ function init() {
     //Toggle overlay
     overlay.classList.toggle('visibility-visible');
 
-    // Move iframes below
+    //Move iframes below
     Array.from(iframes).forEach((song) => {
       song.classList.toggle('below');
     });
+
+    //Remove scroll icon
+    scrollIcon.classList.remove('show');
   }
 
   //If the screen is larger than what is needed to display the hamburger menu and
