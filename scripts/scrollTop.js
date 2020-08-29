@@ -14,7 +14,7 @@ function scrolled() {
     mouseScrollIcon.classList.add('show');
   }
   //Top scroll button
-  if (yScroll > 1000) {
+  if (yScroll > 800) {
     //add show class to scrollTopBtn
     scrollTopBtn.classList.add('show');
   } else {
