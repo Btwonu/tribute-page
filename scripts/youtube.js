@@ -2,7 +2,7 @@
 //https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q=eminem&type=video&chart=mostPopular&key=AIzaSyCp5P5MnjVY55AoQt57PgVb8bkIgHxVLIk
 
 const YOUTUBE_API = 'AIzaSyCp5P5MnjVY55AoQt57PgVb8bkIgHxVLIk';
-const baseURL = 'https://www.googleapis.com/youtube/v3/search?MISTAKE';
+const baseURL = 'https://www.googleapis.com/youtube/v3/search?';
 const defaultVideos =
   'https://btwonu.github.io/tribute-page/scripts/data/defaultVideos.json';
 
