@@ -8,7 +8,7 @@ const defaultVideos =
 
 //URL configuration
 let part = 'snippet';
-let maxResults = 5;
+let maxResults = 6;
 let keyword = 'eminem';
 let type = 'video';
 let chart = 'mostPopular';
