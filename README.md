@@ -1,6 +1,6 @@
 ## Eminem tribute page
 
-### Made for an FCC project
+### Made following the FCC curriculum 
 
 This is a simple tribute page project created following FreeCodeCamp's curriculum. I go a little beyond following the user stories to practice my **CSS** and **JavaScript** skills.
 
